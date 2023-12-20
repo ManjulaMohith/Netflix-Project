@@ -1,0 +1,17 @@
+.movieContainer{
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    display: flex;
+    padding:10px 20px;
+}
+.movieimg{
+    padding: 10px;
+    cursor: pointer;
+}
+.navbar Button a{
+    text-decoration: none;
+    color: white;
+}

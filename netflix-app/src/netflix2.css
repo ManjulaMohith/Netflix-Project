@@ -1,0 +1,120 @@
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    padding: 30px 60px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+.pics{
+    border-radius: 20px;
+    display: block;
+    border: 1px solid rgb(13, 11, 11);
+    cursor: pointer;
+}
+.imgs p{
+    text-align: left;
+    color: rgb(176, 171, 171);
+    
+    font-family: sans-serif;
+    margin-bottom: 0px;
+}
+.item{
+    margin-bottom: 40px;
+    text-align: left;
+    padding: 5px;
+    text-align: left;
+    
+}
+.body{
+    background-color: black;
+}
+.imgs small{
+    color: grey;
+}
+.Rated{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    padding: 30px 60px;
+}
+.Rated .items{
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Overview css styling */
+.overview{
+    background-color: black;
+    padding: 10% 20% 10% 20%;
+    width: 100vw;
+  height: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.overview Button:hover{
+    color: red;
+}
+.img_s{
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.overview p{
+    margin-bottom: 5px;
+    color: grey;
+}
+.overview h3{
+    color: azure;
+    
+   padding: 5px;
+}
+/* watchlist page */
+.card1{
+    background-color: black;
+    padding: 40px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inner{
+    padding: 10px;
+    cursor: pointer;
+}
+.inner p{
+    color: white;
+}
+.picture{
+    border-radius: 15px;
+}
+.style{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.card1 Button{
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
+.link a:hover{
+    color: red;
+}

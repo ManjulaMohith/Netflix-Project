@@ -1,0 +1,483 @@
+.mov{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: black;
+    justify-content: center;
+}
+.img1{
+    border-radius: 4px;
+    border: 1px solid red;
+    margin: 25px;
+    box-shadow: 0px 0px 5px 5px black;
+    cursor: pointer;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+.description{
+    height: 390px;
+    padding-left: 20px;
+    background-color: black;
+
+}
+.head{
+    color: rgb(217, 201, 201);
+    font-size: 39px;
+    font-weight: 1000;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+    padding-top:50px;
+    padding-bottom: 10px;
+}
+.para{
+    line-height: 25px;
+    word-spacing: 4px;
+    font-weight: 500;
+    color:grey;
+}
+/* navbar css */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.nav1{
+    display: flex;
+    gap: 20px;
+}
+.nav1 li{
+    list-style-type: none;
+   padding-top: 25px;
+   cursor: pointer;
+   font-family:Arial, Helvetica, sans-serif;
+   letter-spacing: 2px;
+}
+.nav1 li:hover{
+  color: red;
+}
+.nav1 li a{
+  text-decoration: none;
+  color: white;
+}
+.nav1 li:hover a {
+  color: red;
+}
+.nav2{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+}
+.nav2 input{
+    padding:3px 50px;
+}
+.searchbtn{
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .nav1 {
+      margin-bottom: 20px;
+    }
+  
+    .nav1 li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .nav2 {
+      flex-direction: column;
+    }
+    .searchbtn{
+        border-radius: 10%;
+    }
+    
+  
+    input {
+      margin-bottom: 10px;
+    }
+  }
+  /* home page */
+  .homeNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+  }
+  .caption{
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-left: 10%;
+    margin-top: 7%;  
+    margin-right: 25%;
+    color: white;
+    padding: 30px;
+  }
+  .caption h1{
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .signin{
+    background-color: red;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin: 7px 14px ;
+  }
+  .signin a{
+    text-decoration: none;
+    color: white;
+  }
+  .lang{
+    padding: 4px;
+    border: 1px solid transparent;
+  }
+  .input{
+    padding: 10px;
+    margin: 6px 3px 35px;
+    width: 70%;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;    
+  }
+  .getStarted{
+    background-color: red;
+    padding: 15px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin: 7px 20px ;
+  }
+  @media screen and (max-width: 768px){
+    .caption h1{
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .caption h5{
+        font-size: 20px;
+      }
+      .caption p{
+        font-size: 15px;
+      }
+      .input{
+        padding: 10px;
+        margin: 6px 0px 10px;
+        width: 80%;
+        height: 35px;
+        background-color: transparent;
+        border: 1px solid white;    
+      }
+      .getStarted{
+        background-color: red;
+        padding:5px 5px;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid transparent;
+      }
+      .caption{
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 20px;
+        opacity: 0.8;
+        color: white;
+        margin-left: 5%;
+        margin-top: 5%;  
+        margin-right: 5%;
+      }
+  }
+  @media screen and (max-width: 992px){
+    .caption{
+      background-color: rgba(0, 0, 0, 0.9);
+      border-radius: 20px;
+      opacity: 0.8;
+      color: white;
+      margin-left: 5%;
+      margin-top: 5%;  
+      margin-right: 5%;
+    }
+    .caption h1{
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+    .caption h5{
+      font-size: 24px;
+    }
+  }
+  /* bottom section */
+  .bottom{
+    background-color: black;
+    color: white;
+    
+    padding: 50px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .bottom .card{
+    background: linear-gradient(#361654,#041952);
+    padding: 20px 20px 30px 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    font-family: sans-serif;
+    
+    
+  }
+/*   questions */
+.questions{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+.questions h2{
+  text-align: center;
+}
+.ques{
+  background-color: rgb(63, 61, 61);
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  color: white;
+  margin: 20px 170px 3px 170px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+@media screen and (max-width:768px){
+  .ques{
+    background-color: rgb(63, 61, 61);
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    margin: 20px 60px 3px 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+.plus{
+  font-size: 50px;
+}
+.ques:hover{
+  background-color: rgb(112, 105, 105);
+}
+.container1{
+  background-color: rgb(9, 41, 72);
+  margin: 0px 170px 3px 170px;
+  padding: 20px;
+  word-spacing: 4px;
+  line-height: 50px;
+}
+@media screen and (max-width:768px) {
+  .container1{
+    background-color: rgb(9, 41, 72);
+    margin: 0px 60px 3px 60px;
+    padding: 20px;
+    word-spacing: 4px;
+    line-height: 50px;
+  }
+}
+.input1{
+  padding: 10px;
+  margin: 10px 8px 10px 60px;
+  width: 70%;
+  height: 60px;
+  background-color: transparent;
+  border: 1px solid white;   
+  
+}
+.getStarted1{
+  background-color: red;
+        padding:20px 20px;
+        color: white;
+        font-weight: bold;
+        border: 1px solid transparent;
+}
+@media screen and (max-width:768px) {
+  .input1{
+    padding: 10px;
+    margin: 10px 8px 10px 30px;
+    width: 50%;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid white;   
+    
+  }
+  .getStarted1{
+    background-color: red;
+          padding:5px 5px;
+          color: white;
+          font-weight: bold;
+          border: 1px solid transparent;
+  }
+  .inp p{
+    text-align: left;
+  }
+}
+.inp{
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.p1{
+  padding-left: 60px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+ /* sign in page */
+ .top{
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+ }
+ 
+ .signinform{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: black;
+  opacity: 85%;
+  padding: 50px 50px 30px 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  align-items: center;
+  color: white;
+ }
+ @media screen and (max-width:768px) {
+  .signinform{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    opacity: 85%;
+    padding: 40px 20px 40px 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    align-items: center;
+   }
+   .signinform input{
+    width: 80%;
+    height: 45px;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: black;
+   }
+ }
+ .signinform input{
+  width: 70%;
+  height: 45px;
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: black;
+ }
+ .signinform button{
+  background-color: red;
+  height: 45px;
+  width: 70%;
+  border: 1px solid transparent;
+  color: white;
+  font-weight: bold;
+  display: block;
+ }
+  .form{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: black;
+  opacity: 85%;
+  margin-left: 30%;
+  margin-right: 30%;
+  align-items: center;
+  color: white;
+  padding-bottom: 20px;
+  }
+  /* anchor links */
+  .caption button a{
+    text-decoration: none;
+    color: white;
+  }
+
+  /* getstarted page */
+  .navup{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  .navup a{
+    text-decoration: none;
+    color: black;
+  }
+  .signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    padding: 10px;
+    align-items: center;
+  }
+  .signup button{
+    background-color: red;
+    width: 70%;
+    padding: 10px 30px;
+    display: block;
+    border: 1px solid transparent;
+    color: white;
+  }
+  .signup button a{
+    color: white;
+    text-decoration: none;
+  }
+  .signup input{
+    padding: 10px;
+    width: 70%;
+    display: block;
+  }
+  @media screen and (max-width:768px){
+    .signup{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 10px;
+      text-align: center;
+    }
+    .signup button{
+      background-color: red;
+      width: 70%;
+      padding: 10px 30px;
+      display: block;
+    }
+    .signup input{
+      padding: 10px;
+      width: 70%;
+    }
+  }
+  .links a{
+    color: white;
+    text-decoration: none;
+  }

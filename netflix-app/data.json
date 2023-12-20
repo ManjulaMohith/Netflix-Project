@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "popular": [
+    {
+      "name": "Breaking Bad",
+      "Poster": "/3xnWaLQjelJDDF7LT1WBo6f4BRe.jpg",
+      "overview": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "Date": "2008-01-20",
+      "Popularity": 459.84,
+      "id": 6
+    },
+    {
+      "name": "The Godfather",
+      "Poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "overview": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+      "Date": "1972-03-14",
+      "Popularity": 150.748,
+      "id": 20
+    },
+    {
+      "name": "Rick and Morty",
+      "Poster": "/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
+      "overview": "Rick is a mentally-unbalanced but scientifically gifted old man who has recently reconnected with his family. He spends most of his time involving his young grandson Morty in dangerous, outlandish adventures throughout space and alternate universes. Compounded with Morty's already unstable family life, these events cause Morty much distress at home and school.",
+      "Date": "2013-12-02",
+      "Popularity": 1036.913,
+      "id": 22
+    },
+    {
+      "name": "CSI: Crime Scene Investigation",
+      "Poster": "/i5hmoRjHNWady4AtAGICTUXknKH.jpg",
+      "overview": "A Las Vegas team of forensic investigators are trained to solve criminal cases by scouring the crime scene, collecting irrefutable evidence and finding the missing pieces that solve the mystery.",
+      "Date": "2000-10-06",
+      "Popularity": 1824.698,
+      "id": 23
+    },
+    {
+      "name": "Snøfall",
+      "Poster": "/k9n1CAFyhf6IgSCNqTFOC1OEctE.jpg",
+      "overview": "Selma, a 9 year old girl who lost her parents in an accident, is now living with Ruth, a quite strict neighbour who was just supposed to temporarily look after Selma and her dog Casper.",
+      "Date": "2016-12-01",
+      "Popularity": 2005.205,
+      "id": 24
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
